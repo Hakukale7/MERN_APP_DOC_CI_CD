@@ -9,7 +9,7 @@ COPY . .
 
 EXPOSE 5000
 CMD ["npm", "run", "start"]
-root@ubuntu:/home/ubuntu/commerce/mern-ecommerce# cat docker-compose.yml
+
 version: '3.8'
 services:
   app:
